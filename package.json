@@ -1,9 +1,10 @@
 { "name" :            "qqwry"
 , "description" :     "A node.js driver for libqqwry"
+, "keywords" :        "qqwry,libqqwry"
 , "version" :         "0.0.1"
 , "author" :          "Hidden <zzdhidden@gmail.com>"
 , "repository" :    { "type" :  "git"
-                    , "url" :   "git://github.com/zzdhidden/qqwry-node.git" }
+                    , "url" :   "http://github.com/zzdhidden/qqwry-node.git" }
 , "os" :            [ "linux"
                     , "darwin"
                     , "freebsd" ]
