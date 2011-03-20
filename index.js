@@ -10,7 +10,7 @@ qqwry.prototype.q = function(ip){
 			province: str[1],
 			city: str[2],
 			district: str[3],
-			vender: str[4]
+			desc: str[4]
 		};
 	}
 	return null;
