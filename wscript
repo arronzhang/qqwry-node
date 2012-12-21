@@ -12,6 +12,7 @@ def configure(conf):
   conf.check_tool("node_addon")
   conf.check(lib='iconv', libpath=['/usr/lib', '/usr/local/lib'], uselib_store='ICONV')
   conf.env.append_value('CCFLAGS', ['-O3'])
+  conf.env.set_variant("default")
 
 def build(bld):
   libqqwry = bld.new_task_gen("cc", "shlib")
